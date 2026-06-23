@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardik Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">HardikPortfolio</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="about" class="hero-section">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">A Software Engineer</span></h1>
+                <p>Bridging technical depth with strategic problem-solving to build high-performance intelligent systems and scalable web architectures.</p>
+                <a href="#projects" class="btn-primary">View My Work</a>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="skills-section">
+            <h2>Technical Proficiency</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Languages</h3>
+                    <p>C, C++, python  </p>
+                </div>
+                <div class="skill-card">
+                    <h3>Web & Backend</h3>
+                    <p>HTML, CSS, JavaScript, React.js, Node.js, Express.js</p>
+                </div>
+                <div class="skill-card">
+                    <h3>AI / Data Science</h3>
+                    <p>NumPy, pandas, matplotlib, scikit learn</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Databases & Tools</h3>
+                    <p>SQL, Git, Github, vs code</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section id="projects" class="projects-section">
+            <h2>Featured Projects</h2>
+            <div class="projects-container">
+                
+                <div class="project-card">
+                    <div class="project-tags">AI & Deep Learning</div>
+                    <h3>Steganography Detection System</h3>
+                    <p>Engineered a high-sensitivity CNN-based detection model leveraging high-pass filtering layers and statistical algorithms. Trained on over 75,000 benchmark images to optimize analytical precision.</p>
+                    <div class="project-metric">Achieved 94.2% detection accuracy</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-tags">IoT & Telemetry</div>
+                    <h3>Smart Locomotive Monitoring System</h3>
+                    <p>Developed an industrial telemetry prototype for real-time monitoring of locomotive operational parameters, integrating dynamic data visualization pipelines for field engineers.</p>
+                    <div class="project-metric">Live telemetry processing dashboard</div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2>Get In Touch</h2>
+            <p>Have an interesting problem to solve, a consulting requirement, or a project collaboration idea? Let's connect.</p>
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" placeholder="HARDIK PATEL" required>
+                <input type="email" id="email" placeholder="hardikphp3@gmail.com" required>
+                <input type="Mobile No." id="email" placeholder="9044865125" required>
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Developer Portfolio. Built with clean semantic code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
